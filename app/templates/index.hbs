@@ -1,0 +1,14 @@
+<h1>Running in electron: {{electron}}</h1>
+
+<div>
+  File path:
+  {{input value=filePath}}
+</div>
+
+<button {{action 'callElectron'}}>Call electron</button>
+<div>
+  Result:
+  {{result}}
+</div>
+
+{{outlet}}
